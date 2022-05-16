@@ -1,25 +1,9 @@
+WordPress est célèbre pour pouvoir être installé et prêt à publier en 5 minutes ! Voici comment :
 
-# Comment installer WordPress : le guide complet, étape par étape
-
-Lisez cet article ou visitez ce [lien](https://fr.wordpress.org/support/article/how-to-install-wordpress/)
-
-
-> Étape 1 : 
-- télécharger et installer XAMPP Téléchargez gratuitement la version de XAMPP adaptée à votre système d’exploitationsur le site Web [d’Apache Friends](https://www.apachefriends.org/fr/download.html). En fonction du système d’exploitation, cliquez sur le fichier.exe ou .dmg et lancez l’installation. Les composants sont déjà présélectionnés pour installer WordPress sur XAMPP.
-> Étape 2 :
-- démarrer les modules
-![stop](https://user-images.githubusercontent.com/93977152/166074525-5c737d31-6cd4-4101-ad60-52a26945eaca.png)
-
-> Étape 3 :
-- créer une base de données MySQL avec phpMyAdmin
-
-![xampp07_en](https://user-images.githubusercontent.com/93977152/166074691-e3ed20a6-bbc0-4b8f-a975-9ec19d9f9463.jpg)
-
-> Étape 4 :
--  télécharger et [installer WordPress](https://wordpress.org/download/) , téléchargez-la version actuelle de WordPress. Décompressez le fichier ZIP et cliquez sur le bouton « Explorer » dans XAMPP sous l’onglet « Volumes ».
--  Le dossier XAMPP s’ouvre. Naviguez vers htdocs et créez un sous-dossier pour installer WordPress sur XAMPP. Déplacez les fichiers décompressés dans ce sous-dossier. Nous avons nommé le sous-dossier wp_local.
--  Utilisez l’URL 'https://localhost/NOMDURÉPERTOIRE' pour appeler la page de configuration de WordPress dans XAMPP. Dans notre exemple, l’adresse est 'https://localhost:8443/wp_local'.
-
-Suivez les instructions à l’écran et entrez le nom de la base de données que vous avez choisie, votre utilisateur WordPress (généralement « root ») et le mot de passe de la base de données. WordPress est alors installé sur XAMPP.
-
-![xampp09_en](https://user-images.githubusercontent.com/93977152/166075334-efc1c2b6-17fe-496e-a2dd-d6a16ee5223d.png)
+Téléchargez et décompressez WordPress si ce n’est pas déjà fait.
+Créez une base de données pour WordPress sur votre serveur Web, de sorte que MySQL ait tous les privilèges en accès et en modification.
+Déposez les fichiers de WordPress à l’emplacement désiré sur votre serveur web :
+Si vous souhaitez placer WordPress à la racine de votre domaine (par exemple https://www.example.com/), déplacez ou téléchargez tout le contenu du répertoire WordPress décompressé (en excluant le répertoire lui-même) dans le répertoire racine de votre serveur web.
+Si vous souhaitez placer votre installation de WordPress dans un sous-répertoire de votre site Web (par exemple https//www.example.com/blog/), renommez le répertoire wordpress avec le nom que vous avez choisi pour le sous-répertoire et déplacez ou téléchargez-le vers votre serveur Web. Par exemple, si vous voulez que votre installation de WordPress soit présente dans le sous-répertoire appelé « blog », vous devez renommer le répertoire appelé « wordpress » en « blog » et le télécharger dans le répertoire racine de votre serveur Web.
+Lancez le script d’installation en ouvrant l’URL de WordPress dans votre navigateur web préféré. Suivez les instructions de l’installateur, et validez.
+Et voilà ! WordPress est installé.
